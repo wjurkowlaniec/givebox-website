@@ -67,6 +67,21 @@ body {
 	line-height: 82px;
 }
 
+
+.title--kontakt{
+	background-image: url(../img/header-kontakt.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 163px;
+	/*margin-top: 50px;*/
+}
+
+.title--kontakt p{
+	margin-bottom: 0;
+	line-height: 244px;
+}
+
 .title--zero-waste {
 	background-image: url(../img/header-wizja.png);
 	background-repeat: no-repeat;
