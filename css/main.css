@@ -85,6 +85,41 @@ body {
 	line-height: 244px;
 }
 
+
+
+.title--wspolpraca{
+	background-image: url(../img/header-wspolpraca.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 177px;
+	/*margin-top: 50px;*/
+}
+
+.title--wspolpraca p{
+	padding-right: 4px;
+	margin-bottom: 0;
+	line-height: 244px;
+}
+
+
+.title--pisza{
+	background-image: url(../img/header-piszaonas.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 177px;
+	/*margin-top: 50px;*/
+}
+
+.title--pisza p{
+	padding-right: 4px;
+	margin-bottom: 0;
+	line-height: 179px;
+}
+
+
+
 .title--zero-waste {
 	background-image: url(../img/header-wizja.png);
 	background-repeat: no-repeat;
