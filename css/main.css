@@ -12,6 +12,10 @@ body {
 .header__title {
 	font-family: 'Amatic SC', cursive;
 	font-size: 86px;
+	background-image: url(../img/header.png);
+	background-repeat: no-repeat;
+	height: 170px;
+	font-weight: bold;
 }
 
 .title {
@@ -21,4 +25,12 @@ body {
 
 .container {
 	max-width: 780px;
+}
+
+.social {
+	max-width: 150px;
+}
+
+.social img {
+	max-width: 56px;
 }
