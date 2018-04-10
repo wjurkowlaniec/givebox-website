@@ -11,10 +11,15 @@ body {
 
 .header__title {
 	font-family: 'Amatic SC', cursive;
-	font-size: 86px;
 	background-image: url(../img/header.png);
 	background-repeat: no-repeat;
 	height: 170px;
+}
+
+.header__title h1 {
+	font-size: 86px;
+	margin: 0;
+	line-height: 130px;
 	font-weight: bold;
 }
 
@@ -22,6 +27,18 @@ body {
 	color: #030303;
 	font-size: 40px;
 	margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+	.header__title h1 {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	.header__title h1 {
+		font-size: 40px;
+	}
 }
 
 .title--about {
@@ -33,7 +50,21 @@ body {
 }
 
 .title--about p {
-	line-height: 170px;
+	margin-top: 50px;
+}
+
+.title--zero-waste {
+	background-image: url(../img/header-wizja.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	padding: 150px 15px 28px;
+}
+
+.title--zero-waste p {
+	margin: 0 15px 0 auto;
+	line-height: 1;
+	max-width: 496px;
 }
 
 .container {
@@ -47,4 +78,23 @@ body {
 .social img {
 	max-width: 56px;
 	margin: 0 0 15px 15px;
+}
+
+.help {
+	transform: rotate(-20deg);
+	background-image: url(../img/okragly-kartonik.png);
+	max-width: 243px;
+	height: 243px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 35px;
+}
+
+.help p {
+	font-size: 22px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	max-width: 200px;
+	margin: 67px auto;
 }
