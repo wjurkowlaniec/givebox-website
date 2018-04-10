@@ -157,4 +157,5 @@ body {
 .menu li {
 	display: inline-block;
 	padding-top: 15px;
+	font-size: 18px;
 }
