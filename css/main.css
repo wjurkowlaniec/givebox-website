@@ -53,6 +53,20 @@ body {
 	margin-top: 50px;
 }
 
+.title--place {
+	background-image: url(../img/header-szafy.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 82px;
+	margin-top: 50px;
+}
+
+.title--place p {
+	margin-bottom: 0;
+	line-height: 82px;
+}
+
 .title--zero-waste {
 	background-image: url(../img/header-wizja.png);
 	background-repeat: no-repeat;
@@ -97,4 +111,17 @@ body {
 	text-transform: uppercase;
 	max-width: 200px;
 	margin: 67px auto;
+}
+
+.menu {
+	background-image: url(../img/menu-szafy.png);
+	height: 93px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	list-style: none;
+}
+
+.menu li {
+	display: inline-block;
 }
