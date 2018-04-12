@@ -45,7 +45,7 @@ body {
 	background-image: url(../img/haeder-cotojest.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	background-position: right;
 	height: 130px;
 }
 
@@ -75,14 +75,14 @@ body {
 	background-image: url(../img/header-kontakt.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
-	height: 163px;
+	background-position: right;
+	height: 180px;
 	/*margin-top: 50px;*/
 }
 
 .title--kontakt p{
 	margin-bottom: 0;
-	line-height: 244px;
+	line-height: 270px;
 }
 
 
@@ -91,13 +91,14 @@ body {
 	background-image: url(../img/header-wspolpraca.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
-	height: 177px;
+	background-position: right;
+	height: 182px;
+	padding-right: 0;
 	/*margin-top: 50px;*/
 }
 
 .title--wspolpraca p{
-	padding-right: 4px;
+	/*padding-right: 4px;*/
 	margin-bottom: 0;
 	line-height: 244px;
 }
@@ -107,17 +108,35 @@ body {
 	background-image: url(../img/header-piszaonas.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
-	height: 177px;
+	background-position: right;
+	height: 95px;
 	/*margin-top: 50px;*/
 }
 
 .title--pisza p{
-	padding-right: 4px;
+	padding-left: 25px;
 	margin-bottom: 0;
-	line-height: 179px;
+	line-height: 90px;
 }
 
+
+.title--ludzie {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 82px;
+	margin-top: 50px;
+	padding: 0;
+}
+
+.title--ludzie p {
+	background-image: url(../img/header-ludzie.png);
+	margin-bottom: 0;
+	line-height: 82px;
+	max-width: 275px;
+	margin-left: auto;
+	padding-top: 12px;
+}
 
 
 .title--zero-waste {
@@ -157,7 +176,7 @@ body {
 	margin: 0 0 15px 15px;
 }
 
-.help {
+.pomagamy-kartonik {
 	transform: rotate(-20deg);
 	background-image: url(../img/okragly-kartonik.png);
 	max-width: 243px;
@@ -165,15 +184,17 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	margin-top: 35px;
+
 }
 
-.help p {
+.pomagamy-kartonik p {
 	font-size: 22px;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
 	max-width: 200px;
 	margin: 67px auto;
+	color: #f9dcc0;
 }
 
 .menu {
