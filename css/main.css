@@ -11,7 +11,15 @@ body {
 	padding: 70px 15px 30px;
 
 }
-.content{
+
+a {
+	color:black;
+	font-weight:1000;
+	text-decoration: underline;
+}
+
+
+.content, .content ul li {
     line-height: 1.9rem;
 	font-size:24px;
 	font-family: 'Roboto', cursive;
@@ -103,7 +111,7 @@ body {
 	background-position: right;
 	height: 182px;
 	padding-right: 0;
-	/*margin-top: 50px;*/
+	margin-top: 50px;
 }
 
 .title--wspolpraca p{
@@ -231,3 +239,31 @@ body {
 }
 
 .pt-7{padding-top:5rem!important}
+
+.piszaonas-obrazki img{
+	margin:0;
+	padding:0;
+	    display:inline-block;
+	border-style:none;
+	border:0;
+	border-image-width: 0;
+}
+
+
+.piszaonas-obrazki img{
+	margin:0;
+	padding:0;
+	    display:inline-block;
+	border-style:none;
+	border:0;
+	border-image-width: 0;
+}
+
+.piszaonas-obrazki {
+	    background-image: url(../img/piszaonas/tlo.png);
+    height: 301px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 551px;
+
+}

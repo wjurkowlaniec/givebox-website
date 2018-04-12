@@ -1,0 +1,73 @@
+<html>
+<head>
+        <meta charset="utf-8">
+
+    <title>Google Maps Multiple Markers</title>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAVh0Tuaa1J2w-dYWvoo6TFWDU4qABP1nA"
+            type="text/javascript"></script>
+</head>
+<style>
+    html {
+        height: 100%
+    }
+
+    body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+    }
+
+    #container {
+        width: 100%;
+        height: 100%
+    }
+
+
+    #map {
+        width: 100%;
+        height: 100%
+    }
+
+</style>
+<body>
+<div id="container">
+    <div id="map" style="">
+    </div>
+</div>
+<script type="text/javascript">
+
+
+    var locations = [
+        ["Jeżyce - Dom Tramwajarza", 52.4103598,16.9059363,17,1],
+        ['Suchy Las - Centrum Kultury i Biblioteka Publiczna', 52.4735495,16.8745637,2],
+        ['Łazarz - Park Kasprowicza (przy basenach)', 52.3950862,16.8828468,2612, 3],
+        ['Wilda- lokal Farby ', 52.3971577,16.9248369,653, 4],
+        ['Śródka', 52.4112121,16.9501179,1306, 5],
+    ];
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 12,
+        center: new google.maps.LatLng(52.4103598,16.9059363),
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var infowindow = new google.maps.InfoWindow();
+
+    var marker, i;
+
+    for (i = 0; i < locations.length; i++) {
+        marker = new google.maps.Marker({
+            position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+            map: map
+        });
+
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+            return function () {
+                infowindow.setContent(locations[i][0]);
+                infowindow.open(map, marker);
+            }
+        })(marker, i));
+    }
+</script>
+</body>
+</html>
