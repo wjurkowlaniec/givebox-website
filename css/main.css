@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&subset=latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=latin-ext');
-
+/*TODO
+Roboto jako content
+Abril Fatface headers
+*/
 body {
-	font-family: 'Abril Fatface', cursive;
+
+		font-family: 'Abril Fatface';
 }
 
 .header {
 	padding: 70px 15px 30px;
+
 }
 .content{
-    line-height: 1.6rem;
-	font-size:18px;
+    line-height: 1.9rem;
+	font-size:24px;
+	font-family: 'Roboto', cursive;
+	text-align: justify;
+
 }
 .header__title {
 	font-family: 'Amatic SC', cursive;
@@ -197,7 +203,7 @@ body {
 	text-transform: uppercase;
 	max-width: 200px;
 	margin: 67px auto;
-	color: #f9dcc0;
+	color: white;
 }
 
 .menu {
@@ -218,3 +224,10 @@ body {
 	padding-top: 15px;
 	font-size: 18px;
 }
+
+
+.kartonix{
+	     margin: 0 auto;
+}
+
+.pt-7{padding-top:5rem!important}
