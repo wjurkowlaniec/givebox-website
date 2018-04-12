@@ -56,6 +56,15 @@ a {
 	.header__title h1 {
 		font-size: 40px;
 	}
+	#spinacze, .szafy-lista, .klamerka{
+		display:none;
+	}
+	.szafy-lista{
+		display:none !important;
+	}
+	.kartonix, .pudloimy {
+		    max-width: 100%;
+	}
 }
 
 .title--about {
