@@ -22,7 +22,7 @@ a {
 .content, .content ul li {
     line-height: 1.9rem;
 	font-size:24px;
-	font-family: 'Roboto', cursive;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-align: justify;
 
 }
